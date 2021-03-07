@@ -1,2 +1,3 @@
-n=int(input())
-print(chr(n))
+c=input()
+c=int(c)
+print(chr(c))
