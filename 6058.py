@@ -1,5 +1,9 @@
-a, b = input().split()
-c= bool(int(a))
-d= bool(int(b))
+a,b=map(int,input().split(" "))
 
-print( not (c or d) )
+c=bool(a)
+d=bool(b)
+
+if(c==d and c==False):
+    print("True")
+else:
+    print("False")

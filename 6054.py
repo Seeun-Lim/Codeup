@@ -1,2 +1,2 @@
-a, b = input().split()
+aa, b = input().split()
 print(bool(int(a)) and bool(int(b)))

@@ -1,4 +1,6 @@
-a, b=input().split()
-c = bool(int(a))
-d = bool(int(b))
+a,b=map(int,input().split(" "))
+
+c=bool(a)
+d=bool(b)
+
 print((c and (not d)) or ((not c) and d))
