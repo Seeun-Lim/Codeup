@@ -1,7 +1,7 @@
-a, b, c = input().split()
+a,b,c=input().split(" ")
 a=int(a)
 b=int(b)
 c=int(c)
-hap=a+b+c
-avg=hap/3
-print(hap, round(avg, 2))
+add=a+b+c
+avg=(int(a)+int(b)+int(c))/3
+print(add,round(avg,2))
