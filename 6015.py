@@ -1,3 +1,4 @@
-year,month,date=input().split('.')
+a=input()
+n=int(a,16)
 
-print(date,month,year,sep="-")
+print('%o'%n)
